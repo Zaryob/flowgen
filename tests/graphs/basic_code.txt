@@ -1,0 +1,9 @@
+Hello Smith;
+Ask Smith about coffee;
+if(Smith want coffee){
+    Make coffee;
+    // Warning, it might be hot!
+}
+// Be nice
+Let's party!;
+Good night Smith!;
