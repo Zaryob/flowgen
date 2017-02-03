@@ -55,8 +55,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'FlowGen'
-copyright = "2017, Adam Dobrawy"
+project = u'FlowGen'
+copyright = u"2017, Adam Dobrawy"
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -209,8 +209,8 @@ latex_elements = {
 # [howto/manual]).
 latex_documents = [
     ('index', 'flowgen.tex',
-     'FlowGen Documentation',
-     'Adam Dobrawy', 'manual'),
+     u'FlowGen Documentation',
+     u'Adam Dobrawy', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at
@@ -240,8 +240,8 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'flowgen',
-     'FlowGen Documentation',
-     ['Adam Dobrawy'], 1)
+     u'FlowGen Documentation',
+     [u'Adam Dobrawy'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -255,8 +255,8 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     ('index', 'flowgen',
-     'FlowGen Documentation',
-     'Adam Dobrawy',
+     u'FlowGen Documentation',
+     u'Adam Dobrawy',
      'flowgen',
      'One line description of project.',
      'Miscellaneous'),

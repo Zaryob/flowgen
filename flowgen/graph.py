@@ -88,7 +88,10 @@ class Graph(object):
     def add_edge(self, tail, head, name, **kwargs):
         tail_name = tail if isinstance(tail, str) else str(tail)
         head_name = head if isinstance(head, str) else str(head)
-        self.dot.edge(tail_name=tail_name,head_name=head_name,**self.style.get_for_edge(name, tail, head) **kwargs)
+        self.dot.edge(tail_name=tail_name,
+                      head_name=head_name,
+                      **self.style.get_for_edge(name, tail, head),
+                      **kwargs)
 
     def traverse_edges(self, node, parent=None):
         if isinstance(node, Code):

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+from __future__ import print_function
 from flowgen.graph import Graph
 from flowgen.language import Code
 from flowgen.options import parser
