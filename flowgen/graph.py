@@ -90,7 +90,7 @@ class Graph(object):
         head_name = head if isinstance(head, str) else str(head)
         self.dot.edge(tail_name=tail_name,
                       head_name=head_name,
-                      **self.style.get_for_edge(name, tail, head),
+                      *self.style.get_for_edge(name, tail, head),
                       **kwargs)
 
     def traverse_edges(self, node, parent=None):
